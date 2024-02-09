@@ -1,0 +1,41 @@
+#include<iostream>
+using namespace std;
+int main(){
+	int salary,bonus,total;
+	char a;
+	cout<<"enter a grade of the employee: ";
+	cin>>a;
+	cout<<"enter the salary of the employee: ";
+	cin>>salary;
+	if(salary>=10000){
+		if(a=='A'){
+		bonus=salary/5;
+		total=salary+bonus;
+		cout<<"total salary is: "<<total;
+	}
+	else if(a=='B'){
+		bonus=salary/10;
+		total=salary+bonus;
+		cout<<"total salary is: "<<total;
+	}
+	else{
+		cout<<"invalid grade";
+	}
+    }
+	else{
+		if(a=='A'){
+		bonus=salary/7;
+		total=salary+bonus;
+		cout<<"total salary is: "<<total;
+	}
+	else if(a=='B'){
+		bonus=salary/12;
+		total=salary+bonus;
+		cout<<"total salary is: "<<total;
+	}
+	else{
+		cout<<"invalid grade";
+	}
+	}
+	return 0;
+}
