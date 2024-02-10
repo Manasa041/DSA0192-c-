@@ -1,17 +1,14 @@
 #include<iostream>
 using namespace std;
 int main(){
-	int num1;
-	cout<<"enter a num";
+	int num1,num2;
+	cout<<"enter two digits";
 	cin>>num1;
-	int num2;
-	cout<<"enter a num";
+	cout<<"enter second digit";
 	cin>>num2;
-	int num3;
-	cout<<"enter anum";
-	cin>>num3;
-	float average=(num1+num2+num3)/3;
-	cout<<"average"<<average<<endl;
-	return 0;
-	
+	if(num1==num2){
+		cout<<num1<<"and "<<num2<<"are equal"<<endl;}
+	else{
+		cout<<"not equal"<<endl;}
+		
 }
